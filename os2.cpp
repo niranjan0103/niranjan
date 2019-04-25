@@ -1,7 +1,7 @@
 // C++ program to illustrate Banker's Algorithm ...
 #include<iostream> 
 using namespace std; 
- 
+{
 const int P = 5; 
 
 const int R = 4; 
