@@ -1,10 +1,9 @@
-// C++ program to illustrate Banker's Algorithm ...
 #include<iostream> 
 using namespace std;
 
 const int P = 5;
 
-const int R = 4; 
+const int R = 4 
 
 
 
@@ -29,7 +28,7 @@ bool isSafe(int processes[], int avail[], int maxm[][R],
 	calculateNeed(need, maxm, allot); 
 
 	
-	bool finish[P] = {0}
+	bool finish[P] = {0};
 
 	
 	int safeSeq[P]; 
